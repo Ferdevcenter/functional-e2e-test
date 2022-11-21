@@ -68,5 +68,3 @@ spec:
         sh 'docker logout'
     }
   }
-
-}
