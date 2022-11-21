@@ -50,8 +50,8 @@ spec:
           sh 'mvn serenity:aggregate'
 
           publishHTML(target: [
-              reportName : 'Serenity',
-              reportDir:   'target/site/serenity',
+            reportName : 'Serenity',
+            reportDir:   'target/site/serenity',
              reportFiles: 'index.html',
              keepAll:     true,
              alwaysLinkToLastBuild: true,
